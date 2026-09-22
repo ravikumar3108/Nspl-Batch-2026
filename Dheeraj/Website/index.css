@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+    margin: auto;
+    font-family: "DM Sans", sans-serif;
+    font-optical-sizing: auto;
+}
+
+/* Navbar */
+header {
+    background-color: white;
+    padding: 20px;
+}
+
+header .navbar {
+    display: flex;
+}
+
+.navbar .booking {
+    margin-right: 0;
+    padding-right: 40px;
+}
+
+.navbar .logo {
+    display: flex;
+    margin-left: 0;
+    padding-left: 40px;
+}
+
+.navbar ul li {
+    display: inline-block;
+    padding: 10px 12px;
+    margin: 4px 8px;
+}
+
+.booking button {
+    padding: 10px 25px;
+    background-color: #7e587a;
+    color: white;
+    border: none;
+    font-size: 15px;
+    border-radius: 10px;
+
+}
+.booking span{
+    margin-right: 10px;
+}
