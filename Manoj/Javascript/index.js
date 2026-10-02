@@ -19,3 +19,44 @@ let x = 10;
 // 10 :- data
 
 console.log(x);
+
+let b = 20;
+console.log(b);
+
+// Keywords :- let , var , const
+
+// 1. let :- it is not re-declared.
+// :- it can be re-assign.
+// :- it is a block scope
+
+let a = 10;
+// let a = 20;
+console.log("a is ", a);
+
+// re-assign kr rhe h
+a = 30;
+console.log("a is after line number 38 ", a);
+
+{
+  let manoj = 1;
+  console.log("maonoj", manoj);
+}
+
+// not access the value outer the block..
+// console.log("maonoj", manoj);
+
+// 2. Var :- it can be re-declared.
+// it can be re-assign.
+// it can not be block scope
+
+{
+  var number = 12;
+  console.log("inner number", number);
+}
+
+console.log("outer", number);
+
+
+// 3. const :- it can not be re-declared.
+// it can not be re-assign.
+//  it can be a block scope.
