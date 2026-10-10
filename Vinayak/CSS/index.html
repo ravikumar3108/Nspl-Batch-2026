@@ -24,14 +24,38 @@
 
       /* Tagname */
 
-      h2 {
+      /* h2 {
         color: red;
-      }
+      } */
 
       /* Class :- Class is selected by the dot(.) */
 
       .para {
         background-color: green;
+      }
+
+      /* Id :- Id is selected by the Hashtag (#) */
+
+      #paragraph {
+        color: blue;
+      }
+
+      /* * {
+        border: 1px solid red;
+      } */
+
+      /* Multiple Selectors */
+
+      .p,
+      #h,
+      h3 {
+        background-color: yellow;
+      }
+
+      /* Actual Path... */
+
+      #section1 div .vinayak {
+        color: red;
       }
     </style>
   </head>
@@ -49,7 +73,7 @@
     
     -->
 
-    <h1 style="color: red; background-color: green">Vinayak</h1>
+    <!-- <h1 style="color: red; background-color: green">Vinayak</h1>
 
     <h2>Heading 2</h2>
     <h2>Heading 2</h2>
@@ -60,7 +84,7 @@
     <h2>Heading 2</h2>
     <h2>Heading 2</h2>
 
-    <p class="para">
+    <p class="para" id="paragraph">
       Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi quasi totam
       aut laudantium recusandae cumque aspernatur aperiam officiis veniam id,
       nulla dolorem eligendi corporis saepe? Amet temporibus possimus mollitia
@@ -77,6 +101,37 @@
     <h1 class="para">Heloo</h1>
     <h1>Heloo</h1>
     <h1 class="para">Heloo</h1>
-    <h1>Heloo</h1>
+    <h1>Heloo</h1> -->
+
+    <h1 class="p">Hedaing 1</h1>
+    <h2 id="h">Hedaing 2</h2>
+    <h3>Hedaing 3</h3>
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit harum nemo
+      vero voluptate nihil, ullam, quidem illum molestiae iste modi incidunt
+      distinctio voluptatum facilis fugit voluptatibus autem voluptates vel ad!
+    </p>
+
+    <section id="section1">
+      <div>
+        <h1 class="vinayak">Heloo My name is Vinayak</h1>
+      </div>
+
+      <div>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt
+          animi libero soluta ea numquam assumenda asperiores tempore in sint
+          error magni nostrum repellat, atque eius architecto aliquid? Quis, ut
+          odio.
+        </p>
+        <h1>Heloo my name is Suraj</h1>
+      </div>
+    </section>
+
+    <section id="section2">
+      <div>
+        <h1 class="vinayak">helooo</h1>
+      </div>
+    </section>
   </body>
 </html>
