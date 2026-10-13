@@ -129,52 +129,104 @@
 
 // Operators :-
 
-// 1. Arithmetic Operators
-// +
-let x = 103;
-let y = 20;
+// // 1. Arithmetic Operators
+// // +
+// let x = 103;
+// let y = 20;
 
-let z = x + y;
-console.log("z is", z);
+// let z = x + y;
+// console.log("z is", z);
 
-// -
-let minus = x - y;
-console.log("Substract is:", minus);
-// *
+// // -
+// let minus = x - y;
+// console.log("Substract is:", minus);
+// // *
 
-let mul = x * y;
-console.log(mul);
+// let mul = x * y;
+// console.log(mul);
 
-// /
+// // /
 
-let divide = x / y;
-console.log(divide);
+// let divide = x / y;
+// console.log(divide);
 
-// % modulus :- remainder
-let a = 10;
-let b = 4;
+// // % modulus :- remainder
+// let a = 10;
+// let b = 4;
 
-let md = a % b;
-console.log("reminder", md);
+// let md = a % b;
+// console.log("reminder", md);
 
-// ++ increment op :- increase by 1
-let num = 10;
-let inc = ++num;
-let inc1 = ++num;
-console.log(inc1);
+// // ++ increment op :- increase by 1
+// let num = 10;
+// let inc = ++num;
+// let inc1 = ++num;
+// console.log(inc1);
 
-// -- decrement op :- decrese by 1
-let num1 = 10;
-let d = --num1;
-console.log(d);
+// // -- decrement op :- decrese by 1
+// let num1 = 10;
+// let d = --num1;
+// console.log(d);
 
-// ** expontation op :- Power
-let p = 3;
-let power = 12;
+// // ** expontation op :- Power
+// let p = 3;
+// let power = 12;
 
-let pp = p ** power;
-console.log(pp);
+// let pp = p ** power;
+// console.log(pp);
 
-// 2. Assignment Operators
-// 3. Conditional Operators
-// 4. Logical Operators
+// 2. comparision Operators :- result based on bollean value.
+
+let number1 = 10;
+let number2 = 20;
+let number3 = "10";
+let number4 = 20;
+
+// == check equal values
+
+console.log(number1 == number2); // false
+console.log(number2 == number4); // true
+console.log(number1 == number3); // true
+
+// != :- vice-versa of ==
+console.log(number1 != number2); // true
+console.log(number2 != number4); // false
+
+// === check value and data types
+console.log(number1 === number2); // false
+console.log(number2 === number4); // true
+console.log(number1 === number3); // false
+
+// !==  :- vice versa of ===
+console.log(number2 !== number4); // false
+console.log(number1 !== number3); // true
+
+let number5 = 20;
+let number6 = 10;
+let number7 = 10;
+
+// <= less than or equal
+console.log(number5 <= number6); // false
+console.log(number6 <= number7); // true
+
+// >=  greter than or eqaul
+
+// Assignemnt Operators :-
+// =
+// +=
+let a1 = 10;
+let a2 = a1 + 10;
+console.log("a1 after +10", a1); // 10
+let a3 = (a1 += 10);
+console.log("a1 after +=", a1); // 20
+
+// -=
+// *=
+
+console.log(a1 *= 2); // 40
+
+// /=
+
+
+// **=
+// %=
