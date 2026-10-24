@@ -4,12 +4,54 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+
+    <style>
+      /* 
+        Selectors :- 
+        1. Tagname
+        2. Class :- declare multiples same name classes
+        3. ID :- Unique 
+        4. Universal Selector
+        5. Actual path
+        6. Multiple Selectors
+
+      Syntax of selectors
+
+      selector{
+        propertyname : propertyvalue;
+        propertyname : propertyvalue;
+        propertyname : propertyvalue;
+        propertyname : propertyvalue;
+      }
+
+      */
+      /* By Tagname */
+      p {
+        color: blue;
+        background-color: green;
+      }
+
+      /* By Class :-  select a class by dot(.) */
+
+      .head {
+        color: red;
+      }
+
+      .head2 {
+        color: #ff0256;
+      }
+
+      /* By Id :- select a Id by hashtag(#) */
+      #kishan {
+        background-color: #3002ff;
+      }
+    </style>
   </head>
   <body>
     <!-- 
     CSS :- Cascadic Style Sheet :- it is used to design our webpage.
 
-    1.Inline Css :- which is apply by the style Attribute.
+    1. Inline Css :- which is apply by the style Attribute.
     2. Internal Css :- Which is apply by the Style Tag in the head / body.
     3. External Css :- Which is apply by the external file.
 
@@ -22,7 +64,27 @@
         color :- colorname , rgb(red, green,blue)(0,255) value, hexadecimal value
 
         -->
-    <h1 style="color: rgb(53, 235, 29); background-color: green">My name is Kishan</h1>
-    <h1 style="color: #15370D; background-color: green">My name is Kishan</h1>
+    <h1 style="color: rgb(53, 235, 29); background-color: green">
+      My name is Kishan
+    </h1>
+    <h1 style="color: #15370d; background-color: green">My name is Kishan</h1>
+
+    <p>
+      Lorem ipsum dolor sit amet consectetur, adipisicing elit. Praesentium
+      accusantium voluptate hic harum officiis officia doloribus nesciunt
+      assumenda dignissimos, veniam labore quidem, aperiam ab ipsa. Dolorum
+      quibusdam ipsa beatae iste.
+    </p>
+    <p>
+      Lorem ipsum dolor sit amet consectetur, adipisicing elit. Praesentium
+      accusantium voluptate hic harum officiis officia doloribus nesciunt
+      assumenda dignissimos, veniam labore quidem, aperiam ab ipsa. Dolorum
+      quibusdam ipsa beatae iste.
+    </p>
+
+    <h2 class="head" id="kishan">Heading 2 kishan</h2>
+    <h2 class="head2">Heading 2</h2>
+
+    <h2 class="head">Headig Another One</h2>
   </body>
 </html>
