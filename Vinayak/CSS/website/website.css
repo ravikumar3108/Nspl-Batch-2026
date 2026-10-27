@@ -1,0 +1,67 @@
+ * {
+     margin: 0;
+     padding: 0;
+     margin: auto;
+ }
+
+ .header {
+     display: flex;
+     background-color: black;
+     color: white;
+     padding: 10px 10px;
+ }
+
+ .header ul li {
+     display: inline-block;
+     /* border: 1px solid green; */
+     padding: 10px 15px;
+     margin: 5px 10px;
+ }
+
+ .header button {
+     padding: 10px 12px;
+     background-color: yellow;
+     border: none;
+     border-radius: 10px;
+ }
+
+ /* ===========Hero Section ================ */
+
+ .bg {
+     background-image: url(./image/bg.avif);
+     border: 1px solid;
+     /* repeat , repeat-x , repeat-y */
+     background-repeat: no-repeat;
+     background-size: cover;
+     /* background-size: 80% 400px; */
+     height: 500px;
+
+ }
+
+ .bg .bg-content {
+     width: 50%;
+     margin-left: 0;
+     margin-left: 100px;
+     margin-top: 100px;
+     padding: 20px;
+
+ }
+
+ .bg .bg-content p,
+ h2,
+ button {
+     margin: 18px 0px;
+ }
+
+ .bg-content h2{
+    font-size: 50px;
+ }
+ .bg-content p {
+    font-size: 15px;
+ }
+ .bg-content .btn{
+    padding: 12px 20px;
+    border-radius: 20px;
+    border: none;
+    background-color: yellowgreen;
+ }
