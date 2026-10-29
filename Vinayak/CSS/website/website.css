@@ -53,15 +53,71 @@
      margin: 18px 0px;
  }
 
- .bg-content h2{
-    font-size: 50px;
+ .bg-content h2 {
+     font-size: 50px;
  }
+
  .bg-content p {
-    font-size: 15px;
+     font-size: 15px;
  }
- .bg-content .btn{
-    padding: 12px 20px;
-    border-radius: 20px;
-    border: none;
-    background-color: yellowgreen;
+
+ .bg-content .btn {
+     padding: 12px 20px;
+     border-radius: 20px;
+     border: none;
+     background-color: yellowgreen;
+ }
+
+
+ /* Spotlight  */
+
+ #spotlight {
+     width: 80%;
+     margin: 100px auto;
+ }
+
+ #spotlight .cards-main {
+     display: flex;
+     justify-content: space-between;
+ }
+
+ #spotlight .cards-main {
+     margin-bottom: 20px;
+ }
+
+ #spotlight .cards-main .cards {
+     border: 1px solid;
+     margin-right: 20px;
+     margin-top: 10px;
+ }
+
+ #spotlight .cards-main .cards .cards-content {
+     padding: 17px;
+ }
+
+
+ /* main Spotlight  */
+
+ #main {
+     width: 80%;
+     margin: 100px auto;
+ }
+
+ #main .cards-main {
+     display: flex;
+     justify-content: space-between;
+     margin-bottom: 20px;
+     flex-wrap: wrap;
+ }
+
+
+ #main .cards-main .cards {
+     border: 1px solid;
+     margin-right: 20px;
+     margin-top: 10px;
+     width: 31%;
+ }
+
+ #main .cards-main .cards .cards-content {
+     padding: 17px;
  }
