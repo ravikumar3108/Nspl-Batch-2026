@@ -34,5 +34,30 @@ console.log(arr);
 arr.shift();
 console.log(arr);
 
-arr.unshift("manoj singh")
-console.log(arr)
+arr.unshift("manoj singh");
+console.log(arr);
+
+// Concat :- which is used to add two or more array values.
+let x = [1, 2, 3, 4, 4, 4, 4, 4, 4, 4, 4];
+let y = [5, 6, 7, 78];
+let y1 = [5, 6, 7, 78];
+
+let z = x.concat(y);
+let z1 = y.concat(x, y1);
+console.log(z);
+console.log(z1);
+
+// Splice :-
+// 1. index number
+// 2. remove items
+// 3. add value
+
+x.splice(3, 3, "Hii");
+console.log(x);
+
+// slice :- to cut a piece of array. last index number is not include in slice method
+let a = [1, 2, 3, 4, 5, 6, 74, 4, 3, 3, 3, 2, 222, 1, 1, 1, 1];
+
+console.log(a)
+let newarr = a.slice(0,6)
+console.log(newarr)
